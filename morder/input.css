@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Style Buttons */
+ .btn {
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+ }
+ .btn-orange {
+    @apply bg-orange text-white;
+ }
+ .btn-white {
+    @apply bg-white;
+ }
+ .display-none {
+    @apply hidden;
+ }

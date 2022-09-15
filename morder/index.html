@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" dark>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food-Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3./css/all.min.css"
+      integrity="sha512-iBBm8fW90+nuLcSKlbmcrPcLa0OT92xO1BIs+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHI"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/disti/output.css" />
+  </head>
+  <body class="font-Poppins place-content-center dark:bg-slate-800">
+    <!--navigation start here -->
+    <head>
+      <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+        <div class="py-1">
+          <b>
+            <span class="uppercase text-orange sm:text-3xl">Food</span>
+            <span class="text-blue dark:text-white uppercase">landing page</span>
+          </b>
+        </div>
+        <ul
+          class="hidden sm:flex flex-1 justify-end uppercase items-center gap-12 text-blue dark:text-white text-xs"
+        >
+          <li class="cursor-pointer">Home</li>
+          <li class="cursor-pointer">About</li>
+          <li class="cursor-pointer">Foods</li>
+          <li class="cursor-pointer">Contact</li>
+
+          <!-- Toggle Theme -->
+
+                    <!-- Moon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 dark:text-white cursor-pointer moon">
+                        <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z" clip-rule="evenodd" />
+                      </svg>
+    
+                    <!-- Sun -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-white cursor-pointer sun">
+                        <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+                      </svg>
+                      
+                    <!-- Toggle them ends -->
+        </ul>
+         
+        <button
+          class="flex sm:hidden flex-1 justify-end py-3 px-4 mx-2 focus:outline-none"
+        >
+          <!-- <i class="text-2xl fas fa-bars"></i> -->
+          <p class="uppercase"></p>
+        </button>
+      </nav>
+    </head>
+    <!--navigation end here -->
+
+    <!-- hero section start here -->
+    <section class="relative">
+      <div
+        class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28"
+      >
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h2
+            class="text-blue dark:text-white text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6"
+          >
+            A simple food ordering website
+          </h2>
+          <p class="text-grey text-lg text-center lg:text-left mb-6">
+            A clean and simple website to order your foods
+          </p>
+          <!-- Images -->
+          <div class="flex justify-center flex-wrap gap-6">
+            <button class="btn btn-orange hover:bg-white" type="button">
+              Place Order
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex justify-center flex-1 mt-10 mb-10 md:mb-16 lg:mb-0 z-10">
+          <img class="rounded-full" src="./Images/photo6.png" alt="kuku-image" />
+        </div>
+      </div>
+
+      <!-- orange ractangle -->
+      <div
+        class="hidden md:block overflow:hidden bg-orange rounded-l absolute h-32 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-30"
+      ></div>
+    </section>
+    <!-- hero section end here -->
+
+    <!-- Features starts from here -->
+    <section class="bg-white dark:bg-slate-900 py-20 mt-20 lg:mt-60">
+      <!-- heading -->
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-blue">Features</h1>
+        <p class="text-center text-grey mt-4">
+          Our aim is to make it easy for you to access your favourite foods.
+          Free delivery acrosss the country
+        </p>
+      </div>
+
+      <!-- Feature No.1 -->
+
+      <div class="relative mt-20 lg:mt-24">
+        <div
+          class="container flex flex-col lg:flex-row items-center justify-center gap-x-24"
+        >
+          <!-- Image -->
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+              src="./Images/photo2.png"
+              alt=""
+            />
+          </div>
+          <!-- content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-blue dark:text-white">Get a food In one Click</h1>
+            <p
+              class="text-grey my-4 text-center lg:text:left sm:w-3/4 lg:w-full"
+            >
+              We will deliver your food in minutes, SMit Dhaduk from india surat
+            </p>
+            <button type="button" class="btn btn-orange">More Info</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features No 2 -->
+
+      <div class="relative mt-20 lg:mt-52">
+        <div
+          class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24"
+        >
+          <!-- Image -->
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+              src="./Images/photo3.png"
+              alt=""
+            />
+          </div>
+          <!-- content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-blue dark:text-white">Fresh Food</h1>
+            <p
+              class="text-grey my-4 text-center lg:text:left sm:w-3/4 lg:w-full"
+            >
+              We serve you fresh foods, Smit Dhaduk from india surat
+            </p>
+            <button type="button" class="btn btn-orange">More Info</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features ends from here -->
+
+    <!-- Order Section -->
+
+    <section class="py-20 mt-20">
+      <div class="sm:3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-blue">Order Now</h1>
+        <p class="text-center text-grey mt-4">
+          We will deliver your food in minutes, SMit Dhaduk from india surat
+        </p>
+      </div>
+
+      <!-- Cards -->
+
+      <div
+        class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16"
+      >
+        <!-- Card No-1... -->
+
+        <div class="flex flex-col bg-white rounded-md shadow-md lg:mb-16">
+          <div class="p-6 flex flex-col items-center">
+            <img src="./Images/photo4.png" alt="" />
+            <h3 class="mt-5 mb-2 text-blue text-lg">Tasty Food</h3>
+            <p class="mb-2 text-grey font-light">$18.30</p>
+          </div>
+          <hr class="border-b border-blue" />
+          <div class="flex p-6">
+            <button type="button" class="flex-1 btn btn-orange hover:bg-white">
+              Like this, Order it Now
+            </button>
+          </div>
+        </div>
+        <!-- Card No-1 Ends. -->
+        <!-- Card No-2.. -->
+        <div class="flex flex-col bg-white rounded-md shadow-md lg:mb-16">
+          <div class="p-6 flex flex-col items-center">
+            <img src="./Images/photo5.png" alt="" />
+            <h3 class="mt-5 mb-2 text-blue text-lg">Tasty Food</h3>
+            <p class="mb-2 text-grey font-light">$18.30</p>
+          </div>
+          <hr class="border-b border-blue" />
+          <div class="flex p-6">
+            <button type="button" class="flex-1 btn btn-orange hover:bg-white">
+              Like this, Order it Now
+            </button>
+          </div>
+        </div>
+        <!-- Card No-2 Ends.. -->
+
+        <!-- Card No-3 -->
+
+        <div class="flex flex-col bg-white rounded-md shadow-md lg:mb-16">
+          <div class="p-6 flex flex-col items-center">
+            <img src="./Images/photo1.png" alt="" />
+            <h3 class="mt-5 mb-2 text-blue text-lg">Tasty Food</h3>
+            <p class="mb-2 text-grey font-light">$18.30</p>
+          </div>
+          <hr class="border-b border-blue" />
+          <div class="flex p-6">
+            <button type="button" class="flex-1 btn btn-orange hover:bg-white">
+              Like this, Order it Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Card No-3 Ends -->
+      </div>
+    </section>
+    <!-- Order Section ends -->
+    <!-- FAQ -->
+
+    <section class="bg-white dark:bg-slate-900 py-20">
+      <div class="container">
+        <!-- Heading -->
+        <div lang="sm:w-3/4 lg:w-5/4 mx-auto px-2 ">
+          <h1 class="text-3xl text-center text-blue dark:text-white">
+            Frequently Asked Questions
+          </h1>
+          <p class="text-center text-grey mt-4">
+            Here are some of our FAQs. If you have any other questions you would
+            like to please feel free to mail us.
+          </p>
+        </div>
+        <!-- Heading ends  -->
+        <!-- FAQ items -->
+        <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto text-blue dark:text-white">
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">What is a Bookmark</span>
+            <i class="text-orange fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">What is a Bookmark</span>
+            <i class="text-orange fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">What is a Bookmark</span>
+            <i class="text-orange fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">What is a Bookmark</span>
+            <i class="text-orange fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">What is a Bookmark</span>
+            <i class="text-orange fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">What is a Bookmark</span>
+            <i class="text-orange fas fa-chevron-down"></i>
+          </div>
+          <button
+            type="button"
+            class="mt-12 flex self-center btn btn-orange hover:bg-orange"
+          >
+            More Info
+          </button>
+        </div>
+        <!-- FAQ Ends -->
+      </div>
+    </section>
+
+    <!-- FAQ ends -->
+    <!-- Contact us -->
+
+    <section class="bg-orange text-white py-20">
+      <div class="container">
+        <div class="sm:w-3/4 lg:w-2/4 mx-auto">
+          <p class="text-3xl text-center mb-8">48,000 + Already Ordered</p>
+          <h1 class="text-3xl text-center">
+            Stay up to date with what we are doing
+          </h1>
+          <div class="flex flex-col sm:flex-row gap-6 mt-8">
+            <input
+              type="text"
+              class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black"
+              placeholder=" Enter your email address"
+            />
+            <button type="button" class="btn btn-orange hover:text-blue ">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact us ends -->
+
+    <!-- Footer Start -->
+
+        <footer class="bg-blue py-8 ">
+            <div class="container flex flex-col md:flex:row items-center ">
+               <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12 ">
+                <b>
+                    <span class="text-orange sm:text-3xl ">Food</span>
+                    <span class="text-white  ">Landing Page</span>
+                </b>
+                <ul class="flex text-white uppercase gap-12 text-xs">
+                    <li class="cursor-pointer">Features</li>
+                    <li class="cursor-pointer">Pricing</li>
+                    <li class="cursor-pointer">Contact</li>
+                </ul>
+               </div>
+
+               <div class="flex gap-10 mt-12 md:mt-0"> 
+                <ul class="flex text-white uppercase gap-12 text-xs">
+                    <li>
+                        <i class="text-white text-2xl fab fa-twiter"></i>
+                    </li>
+                    <li>
+                        <i class="text-white text-2xl fab fa-fackbook-square"></i>
+                    </li>
+                </ul>
+            </div>
+
+            </div>
+        </footer>
+
+        <script src="js/app.js"></script>
+
+    <!-- Footer Ends -->
+  </body>
+</html>
+
